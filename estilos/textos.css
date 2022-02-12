@@ -1,0 +1,50 @@
+@font-face {
+    font-family: franchise;
+    src: local(franchise), url(C:/Users/casa/Music/site_loja/fontes/franchise.ttf);
+  }
+  
+ 
+h1.nome{
+    border-bottom:  5px solid rgba(124, 62, 62, 0.295);
+    font-style: italic;
+    font-family: franchise;
+    color: red;
+    font-size: 130px;    
+    font-style: italic;
+    margin-left: 25%;
+    margin-right: 30%;
+    
+    /* #DBA10D,#23B5DB,#DBA10D,#5523DB,#DB6B02 */
+}
+h3.jargao{
+    font-size: 25px;
+    font-style: italic;
+}
+.menu_horizontal{
+    background-color: rgb(252, 250, 253);
+    border: 1px solid black;
+    list-style-type: none;
+    width: 60%;
+    margin-left: 20%;
+    padding-left: 1%;
+    position: relative;
+    float: left;
+
+}
+.menu_horizontal li{
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    color: bisque;
+    text-align: center;
+    padding: .3% 2% .3% 2%;
+}
+.menu_horizontal :hover{
+    background-color: #23B5DB;
+    color:black;
+}
+figcaption{
+   
+    background-color: #23b6db70;
+    text-align: center;
+    height: 30px;
+}
