@@ -11,8 +11,8 @@ h1.nome{
     color: red;
     font-size: 130px;    
     font-style: italic;
-    margin-left: 25%;
-    margin-right: 30%;
+    margin: auto;
+    
     
     /* #DBA10D,#23B5DB,#DBA10D,#5523DB,#DB6B02 */
 }
