@@ -15,10 +15,17 @@ h1.nome{
 h3.jargao{
     display: inline-block;
     margin: auto;
-    width: 100%;
     font-size: 25px;
     font-style: italic;
 }
+h4{
+    position: relative;
+    display: inline-block;
+    font-style: italic;
+    font-size: 20px;
+    padding: 4%;
+}
+
 .menu_horizontal{
     list-style-type: none;
     width: 100%;
