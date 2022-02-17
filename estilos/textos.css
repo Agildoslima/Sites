@@ -5,13 +5,14 @@
     /* #DBA10D,#23B5DB,#DBA10D,#5523DB,#DB6B02 */
  
 h1.nome{
+    
     font-style: italic;
     font-family: 'franchise', 'Arial Narrow', Arial, sans-serif;
-    color: red;
+    color: rgb(245, 13, 13);
      font-size: 110px;    /*tamanho android */
     font-style: italic;
-    
 }
+
 h3.jargao{
     display: inline-block;
     margin: auto;
