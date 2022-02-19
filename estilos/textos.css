@@ -14,18 +14,35 @@ header h1{
     text-decoration: none;
 }
 .menu_horizontal{
-    float: left;  /* float ul e li */
+     /* float ul e li */
     list-style-type: none;
-    background-color: rgb(81, 255, 0);
+    /* background-color: #20a527e8; */
     width: 100%;
-    
+    display: inline-block;
+    text-align: center;
 
 }
 .menu_horizontal li{
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
+    border-radius: 5%;
     display: block;
     float: left;
-    background-color: bisque;
-    padding: 1%;
+    background-color: white;
+    padding: .5%;
     margin: .4%;
 
+}
+header h4{
+    background-color: #23B5DB;
+    color: black;
+    font-size: 105%;
+}
+figcaption{
+    background-color: #DBA10D;
+}
+.menu_horizontal a:hover ,li{
+    background-color: #DBA10D;
+    color: white;
 }
