@@ -1,13 +1,18 @@
+nav li{
+
+    font-size: clamp(1vw, 5vw, 10vw); 
+
+        }
 header h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    font-size: 10em;
     text-shadow: 5px 5px 1px crimson;
     color: rgba(0, 0, 255, 0.692);
     position: relative;
     display: inline-block;
     padding: 0%;
     font-size: 15vw;
+
     
 }
 .menu_horizontal a{
@@ -17,12 +22,13 @@ header h1{
      /* float ul e li */
     list-style-type: none;
     /* background-color: #20a527e8;  */
-    width: 100vw; /* margin automatica */
+    min-width: 96vw; /* margin automatica */
     display: inline-block;
 
 }
 .menu_horizontal li{
-    font-size: 3vw;
+    
+    font-size:  2vw;    
     font-weight: bold;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
     border-radius: 5%;
@@ -33,14 +39,14 @@ header h1{
     margin: .4%;
 
 }
-header h4{
+article header h4{
     border-radius: 5px 0px;
     background-color: #23B5DB;
     color: black;
     font-size: 105%;
-    width: 100%;
+    
 }
-figcaption{
+ article figcaption{
     border-radius: 0px 0px 5px 0px;
     background-color: #DBA10D;
     width: 100%;
@@ -48,4 +54,8 @@ figcaption{
 .menu_horizontal a:hover ,li{
     background-color: #DBA10D;
     color: white;
+}
+.jargao{
+    font-size: 5vw;
+
 }
