@@ -5,7 +5,7 @@
     text-align: center;
 }
 body{
-     background-color: #23B5DB; 
+     /* background-color: #23B5DB;  */
     border: 1px 1px 1px white;
 }
 header.menu{
@@ -20,15 +20,14 @@ main{
     border-radius: 1%;
     background-color: white;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
-    width: 80%;
+    width: 90vw;
     margin: auto;
     margin-bottom: .4%;
 }
 article{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
-
-    width: 30%;
-    height: 30%;
+    width: 10vw;
+    width: 20vh;
     margin: 2%;
     display: inline-block;
 }

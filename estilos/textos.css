@@ -1,14 +1,14 @@
 header h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    font-size: 80px;
-    width: 100%;
-    left: 36%;
-    padding-top: 0%;
-    padding-bottom: 3%;
-    display: inline-block;
+    font-size: 10em;
     text-shadow: 5px 5px 1px crimson;
     color: rgba(0, 0, 255, 0.692);
+    position: relative;
+    display: inline-block;
+    padding: 0%;
+    font-size: 15vw;
+    
 }
 .menu_horizontal a{
     text-decoration: none;
@@ -16,14 +16,13 @@ header h1{
 .menu_horizontal{
      /* float ul e li */
     list-style-type: none;
-    /* background-color: #20a527e8; */
-    width: 100%;
+    /* background-color: #20a527e8;  */
+    width: 100vw; /* margin automatica */
     display: inline-block;
-    text-align: center;
 
 }
 .menu_horizontal li{
-    font-size: larger;
+    font-size: 3vw;
     font-weight: bold;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
     border-radius: 5%;
@@ -35,12 +34,16 @@ header h1{
 
 }
 header h4{
+    border-radius: 5px 0px;
     background-color: #23B5DB;
     color: black;
     font-size: 105%;
+    width: 100%;
 }
 figcaption{
+    border-radius: 0px 0px 5px 0px;
     background-color: #DBA10D;
+    width: 100%;
 }
 .menu_horizontal a:hover ,li{
     background-color: #DBA10D;
