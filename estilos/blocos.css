@@ -13,7 +13,8 @@ header.menu{
     background-color: #fecb00;
 }
 nav{
-    width: auto;
+    Display :flex;
+    largura : automático;
     background-color:#23B5DB ;
     padding-bottom: 0%;
 }
