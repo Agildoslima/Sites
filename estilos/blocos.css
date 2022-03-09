@@ -14,7 +14,8 @@ header.menu{
 }
 nav{
     Display :flex;
-    largura : automático;
+    justify-content:center;
+    largura : automático ; _ _ _
     background-color:#23B5DB ;
     padding-bottom: 0%;
 }
